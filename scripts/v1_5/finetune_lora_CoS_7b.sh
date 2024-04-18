@@ -6,7 +6,7 @@ deepspeed llava/train/train_mem_CoS.py \
     --model_name_or_path liuhaotian/llava-v1.5-7b \
     --version v1 \
     --data_path ./playground/data/llava_v1_5_mix665k.json \
-    --cos_data_path /PATH/TO/YOUR/DATA \
+    --cos_data_path /home/gs3260/gysun/datasets/LLaVA-Instruct-150K/Chain-of-Spot.json \
     --image_folder ./playground/data \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_projector_type mlp2x_gelu \
